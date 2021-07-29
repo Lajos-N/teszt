@@ -3,3 +3,36 @@
     margin: 0;
     padding: 0; 
 }
+
+header {
+    
+}
+
+nav {
+    display: flex;
+    /* justify-content: flex-end; */
+}
+
+.logo {
+    outline: 1px solid red;
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+ul li {
+    list-style: none;
+    margin: 20px;
+}
+
+ul li a {
+    padding: 10px;
+    text-decoration: none;
+    background-color: royalblue;
+}
