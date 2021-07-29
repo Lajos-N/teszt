@@ -1,3 +1,11 @@
+/* ===== VARS ===== */
+
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+  }
+
+
 /* ===== FONT ==== */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&display=swap');
