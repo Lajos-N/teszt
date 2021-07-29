@@ -4,35 +4,42 @@
     padding: 0; 
 }
 
-header {
-    
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
 }
 
-nav {
+header {
     display: flex;
-    /* justify-content: flex-end; */
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
-    outline: 1px solid red;
-    display: flex;
-    justify-content: flex-start;
     text-decoration: none;
 }
 
-ul {
+nav {
+    margin: 20px 0 20px 0;
+}
+
+nav ul {
     display: flex;
-    justify-content: flex-end;
-    width: 100%;
 }
 
-ul li {
+nav ul li {
     list-style: none;
-    margin: 20px;
+    margin: 0 0 0 5px;
 }
 
-ul li a {
+nav ul li a {
     padding: 10px;
     text-decoration: none;
-    background-color: royalblue;
+    color: white;
+    background-color: black;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, .7);
 }
