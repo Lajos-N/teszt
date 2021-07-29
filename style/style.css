@@ -1,13 +1,19 @@
+/* ===== css reset ===== */
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0; 
 }
 
+/* ===== oldal osszefogo ===== */
+
 .wrapper {
     width: 80%;
     margin: 0 auto;
 }
+
+/* ===== HEADER ===== */
 
 header {
     display: flex;
